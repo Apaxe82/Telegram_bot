@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 # === CONFIGURAÇÕES ===
-TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')  # Fixed syntax error
+TOKEN = os.environ.get('8121157944:AAH5lC2Pl-fCqznQqw0GaqccAD8CLdjwe7Q')  # Fixed syntax error
 CHAT_ID = "Apaxe"  # obtém enviando /start ao bot e lendo o log
 HORA_ENVIO = "06:30"  # hora diária para envio (HH:MM)
 DIAS_TOTAIS = 45
